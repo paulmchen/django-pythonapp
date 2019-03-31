@@ -1,4 +1,0 @@
-gunicorn>=19,<20
-redis>=2.10.6,<3
-django-redis-cache==1.8.1
-
