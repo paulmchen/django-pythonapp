@@ -86,7 +86,7 @@ CACHES = {
         'SESSION_ENGINE': 'django.contrib.sessions.backends.cache',
         'SESSION_CACHE_ALIAS': 'default',
         'BACKEND': 'redis_cache.RedisCache',
-        'LOCATION': 'redis://:Huawei@123@localhost:6379',
+        'LOCATION': 'redis://:password@localhost:6379',
         'OPTIONS': {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient'
         }
